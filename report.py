@@ -15,7 +15,7 @@ def connect_to_salesforce():
         username=os.environ["SF_USERNAME"],
         password=os.environ["SF_PASSWORD"],
         security_token=os.environ["SF_SECURITY_TOKEN"],
-        domain="remote-com"
+        domain="remote-com.my"
     )
 
 
